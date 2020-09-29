@@ -75,7 +75,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/deploy/js/demo-min.js",
 		"oF": 3,
 		"sC": 3,

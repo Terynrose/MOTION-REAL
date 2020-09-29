@@ -427,19 +427,14 @@ textarea {
     Demo
 ============= */
 .box {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
 }
 
 .red-box {
-  background-color: #f13232;
+  background-color: red;
 }
 
 .blue-box {
-  background-color: #226ce0;
-}
-
-.orange-box {
-  background-color: #fec458;
+  background-color: blue;
 }
