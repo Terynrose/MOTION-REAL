@@ -1,5 +1,7 @@
 import {gsap} from "gsap";
 
+console.log(gsap);
+
 gsap.to(".red-box",{duration: 2, alpha:0.5, rotation: 360, x: 500, y: 200, borderRadius:"50px"});
 gsap.to(".red-box", {duration:1, delay:2, x: 700, borderRadius: "200px"});
 gsap.to(".red-box", {duration:1, delay:3, x: 350, y: 100, scale:2})
