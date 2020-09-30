@@ -2,41 +2,16 @@ import {gsap} from "gsap";
 
 console.log(gsap);
 
-gsap.to(".red-box",{duration: 2, alpha:0.5, rotation: 360, x: 500, y: 200, borderRadius:"50px"});
-gsap.to(".red-box", {duration:1, delay:2, x: 700, borderRadius: "200px"});
-gsap.to(".red-box", {duration:1, delay:3, x: 350, y: 100, scale:2})
-gsap.to(".red-box", {
-    duration:3, 
-    delay:3.8, 
-    x:-34.5,
-    y:35,
-    backgroundColor: "blue", 
-    position: "absolute", 
-    content: "", 
-    left: "50px", 
-    top: "0", 
-    width: "50px", 
-    height: "80px", 
-    borderRadius: "50px 50px 0 0", 
-    transform: "rotate(45deg)", 
-    transformOrigin: "100% 100%"
-})
+var boxSpeed = 1;
 
-gsap.to(".blue-box",{duration:2, alpha: 0.5, rotation: 360, x:500, borderRadius: "50px"});
-gsap.to(".blue-box", {duration:1, x: 500, y:-100, rotation: 360, borderRadius: "200px", delay: 2});
-gsap.to(".blue-box", {duration:1, delay:3, y: -600, scale:0.1})
-gsap.to(".blue-box", {
-    duration:3, 
-    delay:3.8, 
-    backgroundColor: "red", 
-    alpha: 0.5,
-    position: "absolute", 
-    content: "", 
-    left: "50px", 
-    top: "0", 
-    width: "50px", 
-    height: "80px", 
-    borderRadius: "50px 50px 0 0", 
-    transform: "rotate(-45deg)", 
-    transformOrigin: "100% 100%"
-})
+var boxAnimationTL = gsap.timeline();
+
+boxAnimationTL.to(".red-box", {duration: 2, x:500, y:200, rotation: 360, borderRadius:"50px", alpha: 0.5}, "first")
+                .to(".red-box", {duration: boxSpeed, x:700, borderRadius:"200px"}, "second")
+                .to(".red-box", {duration: boxSpeed, x:350, y:100, scale:2, alpha: 1}, "third")
+                .to(".red-box", {duration: 2, backgroundColor: "blue", alpha:0.5, x:-34.5, y:35, position:"absolute", content: "", left:"50px", top:"0", width:"50px", height:"80px", borderRadius:"50px 50px 0 0", transform:"rotate(45deg)", transformOrigin:"100% 100%"}, "fourth")
+                .to(".blue-box", {duration: 2, x:500, rotation:360, borderRadius:"50px", alpha: 0.5}, "first")
+                .to(".blue-box", {duration: boxSpeed, x:500, y:-100, rotation:360, borderRadius:"200px"}, "second")
+                .to(".blue-box", {duration: boxSpeed, y:-600, scale:0.1, alpha:1}, "third")
+                .to(".blue-box", {duration: 2, backgroundColor: "red", alpha:0.5, position:"absolute", content: "", left:"50px", top:"0", width:"50px", height:"80px", borderRadius:"50px 50px 0 0", transform:"rotate(-45deg)", transformOrigin:"100% 100%"}, "fourth");
+
