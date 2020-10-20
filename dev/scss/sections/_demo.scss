@@ -2,3 +2,20 @@
     Demo
 ============= */
 
+
+#white{
+    background-color: #000;
+    display:grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: "WL . .";
+
+    >div{
+        grid-area: WL;
+        border: 3px solid aqua;
+
+        svg{
+            border: 3px solid white;
+            width: 100%;
+        }
+    }
+}
