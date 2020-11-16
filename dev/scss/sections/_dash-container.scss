@@ -1,0 +1,17 @@
+#dashboard-container{
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". dash .";
+    >div{
+        grid-area: dash;
+        position: relative;
+
+        .svgs{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            border: 1px solid red
+        }
+    }
+}

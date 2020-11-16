@@ -423,13 +423,23 @@ textarea {
 /* =============
     Footer
 ============= */
+#dashboard-container {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". dash .";
+}
+#dashboard-container > div {
+  grid-area: dash;
+  position: relative;
+}
+#dashboard-container > div .svgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 1px solid red;
+}
+
 /* =============
     Demo
 ============= */
-#logo {
-  margin-top: 50px;
-}
-
-#Dashboard {
-  margin-top: 0;
-}

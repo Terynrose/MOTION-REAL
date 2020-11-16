@@ -222,6 +222,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_dash-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_dash-container.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_demo.scss": {
 		"aP": 0,
 		"bl": 0,

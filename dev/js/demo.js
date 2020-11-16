@@ -16,8 +16,8 @@ import {
 
 const logoTL = gsap.timeline();
 logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
-        .from("#LW", {duration: 3, alpha: 0, rotation: 83, transformOrigin: "right", ease: "elastic"}, "third")
-        .from("#RW", {duration: 3, alpha: 0, rotation: -83, transformOrigin: "left", ease: "elastic"}, "third")
+        .from("#LW", {duration: 3, alpha: 0, rotation: 83, transformOrigin: "right", ease: "bounce"}, "third")
+        .from("#RW", {duration: 3, alpha: 0, rotation: -83, transformOrigin: "left", ease: "bounce"}, "third")
         .from("#Beak", {delay: 1.5, duration: 1, alpha: 0}, "third")
         .from("#Shadows", {delay: 1, duration: 1, alpha: 0}, "third")
         .from("#Feathers", {delay: 1.5, duration: 1, alpha: 0}, "third")
