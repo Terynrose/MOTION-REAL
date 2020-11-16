@@ -426,23 +426,10 @@ textarea {
 /* =============
     Demo
 ============= */
-#white {
-  background-color: #000;
-  display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  grid-template-areas: "WL text .";
+#logo {
+  margin-top: 50px;
 }
-#white > div {
-  grid-area: WL;
-}
-#white > div svg {
-  width: 50%;
-}
-#white > article {
-  grid-area: text;
-  margin-top: 100px;
-  margin-bottom: 500px;
-}
-#white > article svg {
-  width: 100%;
+
+#Dashboard {
+  margin-top: 0;
 }
