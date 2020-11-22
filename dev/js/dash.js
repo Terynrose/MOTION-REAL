@@ -6,7 +6,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 const revealTL = gsap.timeline();
 
 export function revealAnimation(){
-    revealTL.from("#")
+    revealTL.from("#CrossR", {duration: 1, drawSVG: "0%"});
 
 
     return revealTL
