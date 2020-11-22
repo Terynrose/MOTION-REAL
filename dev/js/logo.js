@@ -1,6 +1,7 @@
-import {
-    gsap
-} from "gsap";
+import {gsap} from "gsap";
+// import{DrawSVGPlugin} from "gsap/DrawSVGPlugin";
+
+// gsap.registerPlugin(DrawSVGPlugin);
 
 
 const logoTL = gsap.timeline();
@@ -22,11 +23,8 @@ logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
 
 
 
+
+
 export function logoAnimation() {
     return logoTL;
 }
-
-
-//export function lampAnimation() {
-//    return lampTL;
-//}

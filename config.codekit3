@@ -38,12 +38,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
+	"/dev/content/dash.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/dev/content/dash.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -70,7 +70,29 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/dash-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/dash-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dash.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dash-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/logo.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
