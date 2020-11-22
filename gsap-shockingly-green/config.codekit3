@@ -4,1946 +4,1683 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
+		"uuidString": "5CF01B53-5CE8-494A-A691-771B0DB9B8A7"
 		}
 	],
 "creatorBuild": "32137",
 "files": {
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/deploy/index.html": {
+	"/docs-link.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oAP": "/docs-link.html",
 		"oF": 0
 		},
-	"/deploy/js/scripts-min.js": {
+	"/esm/all.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min.js",
+		"oAP": "/esm/all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/dash.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/dash.html",
-		"oF": 0
-		},
-	"/dev/global/head.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/head.html",
-		"oF": 0
-		},
-	"/dev/global/scripts.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/scripts.html",
-		"oF": 0
-		},
-	"/dev/index.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
-		},
-	"/dev/js/dash.js": {
+	"/esm/CSSPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/dash-min.js",
-		"oF": 1,
+		"oAP": "/esm/CSSPlugin-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/logo.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/deploy/js/demo-min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/scripts.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/scss/base/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/base/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/base/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/helpers/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/helpers/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_dash-container.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_dash-container.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_demo.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
-		"oS": 0,
-		"sct": 0
-		},
-	"/gsap-shockingly-green/docs-link.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/gsap-shockingly-green/docs-link.html",
-		"oF": 0
-		},
-	"/gsap-shockingly-green/esm/all.js": {
+	"/esm/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/all-min.js",
+		"oAP": "/esm/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/CSSPlugin.js": {
+	"/esm/CustomBounce.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/esm/CustomBounce-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/esm/CustomEase.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/esm/CustomEase-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/esm/CustomWiggle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/esm/CustomWiggle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/esm/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/CSSPlugin-min.js",
+		"oAP": "/esm/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/CSSRulePlugin.js": {
+	"/esm/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/CSSRulePlugin-min.js",
+		"oAP": "/esm/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/CustomBounce.js": {
+	"/esm/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/CustomBounce-min.js",
+		"oAP": "/esm/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/CustomEase.js": {
+	"/esm/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/CustomEase-min.js",
+		"oAP": "/esm/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/CustomWiggle.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/CustomWiggle-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/gsap-shockingly-green/esm/Draggable.js": {
+	"/esm/gsap-core.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/Draggable-min.js",
+		"oAP": "/esm/gsap-core-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/DrawSVGPlugin.js": {
+	"/esm/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/DrawSVGPlugin-min.js",
+		"oAP": "/esm/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/EaselPlugin.js": {
+	"/esm/index.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/EaselPlugin-min.js",
+		"oAP": "/esm/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/EasePack.js": {
+	"/esm/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/EasePack-min.js",
+		"oAP": "/esm/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/gsap-shockingly-green/esm/GSDevTools.js": {
+	"/esm/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/GSDevTools-min.js",
+		"oAP": "/esm/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/index.js": {
+	"/esm/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/index-min.js",
+		"oAP": "/esm/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/InertiaPlugin.js": {
+	"/esm/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/InertiaPlugin-min.js",
+		"oAP": "/esm/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/MorphSVGPlugin.js": {
+	"/esm/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/MorphSVGPlugin-min.js",
+		"oAP": "/esm/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/MotionPathHelper.js": {
+	"/esm/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/MotionPathHelper-min.js",
+		"oAP": "/esm/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/MotionPathPlugin.js": {
+	"/esm/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/MotionPathPlugin-min.js",
+		"oAP": "/esm/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/Physics2DPlugin.js": {
+	"/esm/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/Physics2DPlugin-min.js",
+		"oAP": "/esm/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/PhysicsPropsPlugin.js": {
+	"/esm/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/PhysicsPropsPlugin-min.js",
+		"oAP": "/esm/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/PixiPlugin.js": {
+	"/esm/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/PixiPlugin-min.js",
+		"oAP": "/esm/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/ScrambleTextPlugin.js": {
+	"/esm/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/ScrambleTextPlugin-min.js",
+		"oAP": "/esm/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/ScrollToPlugin.js": {
+	"/esm/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/ScrollToPlugin-min.js",
+		"oAP": "/esm/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/ScrollTrigger.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/ScrollTrigger-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/gsap-shockingly-green/esm/SplitText.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/SplitText-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/gsap-shockingly-green/esm/TextPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/gsap-shockingly-green/esm/TextPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/gsap-shockingly-green/esm/utils/matrix.js": {
+	"/esm/utils/matrix.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/utils/matrix-min.js",
+		"oAP": "/esm/utils/matrix-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/utils/PathEditor.js": {
+	"/esm/utils/PathEditor.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/utils/PathEditor-min.js",
+		"oAP": "/esm/utils/PathEditor-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/utils/paths.js": {
+	"/esm/utils/paths.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/utils/paths-min.js",
+		"oAP": "/esm/utils/paths-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/utils/strings.js": {
+	"/esm/utils/strings.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/utils/strings-min.js",
+		"oAP": "/esm/utils/strings-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/esm/utils/VelocityTracker.js": {
+	"/esm/utils/VelocityTracker.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/esm/utils/VelocityTracker-min.js",
+		"oAP": "/esm/utils/VelocityTracker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/getting-started-link.html": {
+	"/getting-started-link.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/getting-started-link.html",
+		"oAP": "/getting-started-link.html",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/CSSRulePlugin.min.js": {
+	"/minified/CSSRulePlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CSSRulePlugin.min-min.js",
+		"oAP": "/minified/CSSRulePlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/CSSRulePlugin.min.js.map": {
+	"/minified/CSSRulePlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CSSRulePlugin.min.js.map",
+		"oAP": "/minified/CSSRulePlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/CustomBounce.min.js": {
+	"/minified/CustomBounce.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomBounce.min-min.js",
+		"oAP": "/minified/CustomBounce.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/CustomBounce.min.js.map": {
+	"/minified/CustomBounce.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomBounce.min.js.map",
+		"oAP": "/minified/CustomBounce.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/CustomEase.min.js": {
+	"/minified/CustomEase.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomEase.min-min.js",
+		"oAP": "/minified/CustomEase.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/CustomEase.min.js.map": {
+	"/minified/CustomEase.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomEase.min.js.map",
+		"oAP": "/minified/CustomEase.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/CustomWiggle.min.js": {
+	"/minified/CustomWiggle.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomWiggle.min-min.js",
+		"oAP": "/minified/CustomWiggle.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/CustomWiggle.min.js.map": {
+	"/minified/CustomWiggle.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/CustomWiggle.min.js.map",
+		"oAP": "/minified/CustomWiggle.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/Draggable.min.js": {
+	"/minified/Draggable.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/Draggable.min-min.js",
+		"oAP": "/minified/Draggable.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/Draggable.min.js.map": {
+	"/minified/Draggable.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/Draggable.min.js.map",
+		"oAP": "/minified/Draggable.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/DrawSVGPlugin.min.js": {
+	"/minified/DrawSVGPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/DrawSVGPlugin.min-min.js",
+		"oAP": "/minified/DrawSVGPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/DrawSVGPlugin.min.js.map": {
+	"/minified/DrawSVGPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/DrawSVGPlugin.min.js.map",
+		"oAP": "/minified/DrawSVGPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/EaselPlugin.min.js": {
+	"/minified/EaselPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/EaselPlugin.min-min.js",
+		"oAP": "/minified/EaselPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/EaselPlugin.min.js.map": {
+	"/minified/EaselPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/EaselPlugin.min.js.map",
+		"oAP": "/minified/EaselPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/EasePack.min.js": {
+	"/minified/EasePack.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/EasePack.min-min.js",
+		"oAP": "/minified/EasePack.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/EasePack.min.js.map": {
+	"/minified/EasePack.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/EasePack.min.js.map",
+		"oAP": "/minified/EasePack.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/gsap.min.js": {
+	"/minified/gsap.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/gsap.min-min.js",
+		"oAP": "/minified/gsap.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/gsap.min.js.map": {
+	"/minified/gsap.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/gsap.min.js.map",
+		"oAP": "/minified/gsap.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/GSDevTools.min.js": {
+	"/minified/GSDevTools.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/GSDevTools.min-min.js",
+		"oAP": "/minified/GSDevTools.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/GSDevTools.min.js.map": {
+	"/minified/GSDevTools.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/GSDevTools.min.js.map",
+		"oAP": "/minified/GSDevTools.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/InertiaPlugin.min.js": {
+	"/minified/InertiaPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/InertiaPlugin.min-min.js",
+		"oAP": "/minified/InertiaPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/InertiaPlugin.min.js.map": {
+	"/minified/InertiaPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/InertiaPlugin.min.js.map",
+		"oAP": "/minified/InertiaPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/MorphSVGPlugin.min.js": {
+	"/minified/MorphSVGPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MorphSVGPlugin.min-min.js",
+		"oAP": "/minified/MorphSVGPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/MorphSVGPlugin.min.js.map": {
+	"/minified/MorphSVGPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MorphSVGPlugin.min.js.map",
+		"oAP": "/minified/MorphSVGPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/MotionPathHelper.min.js": {
+	"/minified/MotionPathHelper.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MotionPathHelper.min-min.js",
+		"oAP": "/minified/MotionPathHelper.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/MotionPathHelper.min.js.map": {
+	"/minified/MotionPathHelper.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MotionPathHelper.min.js.map",
+		"oAP": "/minified/MotionPathHelper.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/MotionPathPlugin.min.js": {
+	"/minified/MotionPathPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MotionPathPlugin.min-min.js",
+		"oAP": "/minified/MotionPathPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/MotionPathPlugin.min.js.map": {
+	"/minified/MotionPathPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/MotionPathPlugin.min.js.map",
+		"oAP": "/minified/MotionPathPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/Physics2DPlugin.min.js": {
+	"/minified/Physics2DPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/Physics2DPlugin.min-min.js",
+		"oAP": "/minified/Physics2DPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/Physics2DPlugin.min.js.map": {
+	"/minified/Physics2DPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/Physics2DPlugin.min.js.map",
+		"oAP": "/minified/Physics2DPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/PhysicsPropsPlugin.min.js": {
+	"/minified/PhysicsPropsPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/PhysicsPropsPlugin.min-min.js",
+		"oAP": "/minified/PhysicsPropsPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/PhysicsPropsPlugin.min.js.map": {
+	"/minified/PhysicsPropsPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/PhysicsPropsPlugin.min.js.map",
+		"oAP": "/minified/PhysicsPropsPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/PixiPlugin.min.js": {
+	"/minified/PixiPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/PixiPlugin.min-min.js",
+		"oAP": "/minified/PixiPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/PixiPlugin.min.js.map": {
+	"/minified/PixiPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/PixiPlugin.min.js.map",
+		"oAP": "/minified/PixiPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/ScrambleTextPlugin.min.js": {
+	"/minified/ScrambleTextPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrambleTextPlugin.min-min.js",
+		"oAP": "/minified/ScrambleTextPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/ScrambleTextPlugin.min.js.map": {
+	"/minified/ScrambleTextPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrambleTextPlugin.min.js.map",
+		"oAP": "/minified/ScrambleTextPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/ScrollToPlugin.min.js": {
+	"/minified/ScrollToPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrollToPlugin.min-min.js",
+		"oAP": "/minified/ScrollToPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/ScrollToPlugin.min.js.map": {
+	"/minified/ScrollToPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrollToPlugin.min.js.map",
+		"oAP": "/minified/ScrollToPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/ScrollTrigger.min.js": {
+	"/minified/ScrollTrigger.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrollTrigger.min-min.js",
+		"oAP": "/minified/ScrollTrigger.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/ScrollTrigger.min.js.map": {
+	"/minified/ScrollTrigger.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/ScrollTrigger.min.js.map",
+		"oAP": "/minified/ScrollTrigger.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/SplitText.min.js": {
+	"/minified/SplitText.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/SplitText.min-min.js",
+		"oAP": "/minified/SplitText.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/SplitText.min.js.map": {
+	"/minified/SplitText.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/SplitText.min.js.map",
+		"oAP": "/minified/SplitText.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/minified/TextPlugin.min.js": {
+	"/minified/TextPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/TextPlugin.min-min.js",
+		"oAP": "/minified/TextPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/minified/TextPlugin.min.js.map": {
+	"/minified/TextPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/minified/TextPlugin.min.js.map",
+		"oAP": "/minified/TextPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/gsap-bonus.tgz": {
+	"/npm-install-this/gsap-bonus.tgz": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/gsap-bonus.tgz",
+		"oAP": "/npm-install-this/gsap-bonus.tgz",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/all.js": {
+	"/npm-install-this/package/all.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/all-min.js",
+		"oAP": "/npm-install-this/package/all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/CSSPlugin.js": {
+	"/npm-install-this/package/CSSPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/CSSPlugin-min.js",
+		"oAP": "/npm-install-this/package/CSSPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/CSSRulePlugin.js": {
+	"/npm-install-this/package/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/CSSRulePlugin-min.js",
+		"oAP": "/npm-install-this/package/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/CustomBounce.js": {
+	"/npm-install-this/package/CustomBounce.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/CustomBounce-min.js",
+		"oAP": "/npm-install-this/package/CustomBounce-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/CustomEase.js": {
+	"/npm-install-this/package/CustomEase.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/CustomEase-min.js",
+		"oAP": "/npm-install-this/package/CustomEase-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/CustomWiggle.js": {
+	"/npm-install-this/package/CustomWiggle.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/CustomWiggle-min.js",
+		"oAP": "/npm-install-this/package/CustomWiggle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin.js": {
+	"/npm-install-this/package/dist/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin.min.js": {
+	"/npm-install-this/package/dist/CSSRulePlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/CSSRulePlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin.min.js.map": {
+	"/npm-install-this/package/dist/CSSRulePlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CSSRulePlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/CSSRulePlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce.js": {
+	"/npm-install-this/package/dist/CustomBounce.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomBounce-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce.min.js": {
+	"/npm-install-this/package/dist/CustomBounce.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce.min-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomBounce.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce.min.js.map": {
+	"/npm-install-this/package/dist/CustomBounce.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomBounce.min.js.map",
+		"oAP": "/npm-install-this/package/dist/CustomBounce.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomEase.js": {
+	"/npm-install-this/package/dist/CustomEase.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomEase-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomEase-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomEase.min.js": {
+	"/npm-install-this/package/dist/CustomEase.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomEase.min-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomEase.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomEase.min.js.map": {
+	"/npm-install-this/package/dist/CustomEase.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomEase.min.js.map",
+		"oAP": "/npm-install-this/package/dist/CustomEase.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle.js": {
+	"/npm-install-this/package/dist/CustomWiggle.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomWiggle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle.min.js": {
+	"/npm-install-this/package/dist/CustomWiggle.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle.min-min.js",
+		"oAP": "/npm-install-this/package/dist/CustomWiggle.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle.min.js.map": {
+	"/npm-install-this/package/dist/CustomWiggle.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/CustomWiggle.min.js.map",
+		"oAP": "/npm-install-this/package/dist/CustomWiggle.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Draggable.js": {
+	"/npm-install-this/package/dist/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Draggable-min.js",
+		"oAP": "/npm-install-this/package/dist/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Draggable.min.js": {
+	"/npm-install-this/package/dist/Draggable.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Draggable.min-min.js",
+		"oAP": "/npm-install-this/package/dist/Draggable.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Draggable.min.js.map": {
+	"/npm-install-this/package/dist/Draggable.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Draggable.min.js.map",
+		"oAP": "/npm-install-this/package/dist/Draggable.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin.js": {
+	"/npm-install-this/package/dist/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin.min.js": {
+	"/npm-install-this/package/dist/DrawSVGPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/DrawSVGPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin.min.js.map": {
+	"/npm-install-this/package/dist/DrawSVGPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/DrawSVGPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/DrawSVGPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin.js": {
+	"/npm-install-this/package/dist/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin.min.js": {
+	"/npm-install-this/package/dist/EaselPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/EaselPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin.min.js.map": {
+	"/npm-install-this/package/dist/EaselPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EaselPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/EaselPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EasePack.js": {
+	"/npm-install-this/package/dist/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EasePack-min.js",
+		"oAP": "/npm-install-this/package/dist/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EasePack.min.js": {
+	"/npm-install-this/package/dist/EasePack.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EasePack.min-min.js",
+		"oAP": "/npm-install-this/package/dist/EasePack.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/EasePack.min.js.map": {
+	"/npm-install-this/package/dist/EasePack.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/EasePack.min.js.map",
+		"oAP": "/npm-install-this/package/dist/EasePack.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/gsap.js": {
+	"/npm-install-this/package/dist/gsap.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/gsap-min.js",
+		"oAP": "/npm-install-this/package/dist/gsap-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/gsap.min.js": {
+	"/npm-install-this/package/dist/gsap.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/gsap.min-min.js",
+		"oAP": "/npm-install-this/package/dist/gsap.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/gsap.min.js.map": {
+	"/npm-install-this/package/dist/gsap.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/gsap.min.js.map",
+		"oAP": "/npm-install-this/package/dist/gsap.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools.js": {
+	"/npm-install-this/package/dist/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools-min.js",
+		"oAP": "/npm-install-this/package/dist/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools.min.js": {
+	"/npm-install-this/package/dist/GSDevTools.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools.min-min.js",
+		"oAP": "/npm-install-this/package/dist/GSDevTools.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools.min.js.map": {
+	"/npm-install-this/package/dist/GSDevTools.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/GSDevTools.min.js.map",
+		"oAP": "/npm-install-this/package/dist/GSDevTools.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin.js": {
+	"/npm-install-this/package/dist/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin.min.js": {
+	"/npm-install-this/package/dist/InertiaPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/InertiaPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin.min.js.map": {
+	"/npm-install-this/package/dist/InertiaPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/InertiaPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/InertiaPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin.js": {
+	"/npm-install-this/package/dist/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin.min.js": {
+	"/npm-install-this/package/dist/MorphSVGPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/MorphSVGPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin.min.js.map": {
+	"/npm-install-this/package/dist/MorphSVGPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MorphSVGPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/MorphSVGPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper.js": {
+	"/npm-install-this/package/dist/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper-min.js",
+		"oAP": "/npm-install-this/package/dist/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper.min.js": {
+	"/npm-install-this/package/dist/MotionPathHelper.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper.min-min.js",
+		"oAP": "/npm-install-this/package/dist/MotionPathHelper.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper.min.js.map": {
+	"/npm-install-this/package/dist/MotionPathHelper.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathHelper.min.js.map",
+		"oAP": "/npm-install-this/package/dist/MotionPathHelper.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin.js": {
+	"/npm-install-this/package/dist/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin.min.js": {
+	"/npm-install-this/package/dist/MotionPathPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/MotionPathPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin.min.js.map": {
+	"/npm-install-this/package/dist/MotionPathPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/MotionPathPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/MotionPathPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin.js": {
+	"/npm-install-this/package/dist/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin.min.js": {
+	"/npm-install-this/package/dist/Physics2DPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/Physics2DPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin.min.js.map": {
+	"/npm-install-this/package/dist/Physics2DPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/Physics2DPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/Physics2DPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin.js": {
+	"/npm-install-this/package/dist/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin.min.js": {
+	"/npm-install-this/package/dist/PhysicsPropsPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/PhysicsPropsPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin.min.js.map": {
+	"/npm-install-this/package/dist/PhysicsPropsPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PhysicsPropsPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/PhysicsPropsPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin.js": {
+	"/npm-install-this/package/dist/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin.min.js": {
+	"/npm-install-this/package/dist/PixiPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/PixiPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin.min.js.map": {
+	"/npm-install-this/package/dist/PixiPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/PixiPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/PixiPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin.js": {
+	"/npm-install-this/package/dist/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin.min.js": {
+	"/npm-install-this/package/dist/ScrambleTextPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrambleTextPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin.min.js.map": {
+	"/npm-install-this/package/dist/ScrambleTextPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrambleTextPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/ScrambleTextPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin.js": {
+	"/npm-install-this/package/dist/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin.min.js": {
+	"/npm-install-this/package/dist/ScrollToPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrollToPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin.min.js.map": {
+	"/npm-install-this/package/dist/ScrollToPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollToPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/ScrollToPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger.js": {
+	"/npm-install-this/package/dist/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger.min.js": {
+	"/npm-install-this/package/dist/ScrollTrigger.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger.min-min.js",
+		"oAP": "/npm-install-this/package/dist/ScrollTrigger.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger.min.js.map": {
+	"/npm-install-this/package/dist/ScrollTrigger.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/ScrollTrigger.min.js.map",
+		"oAP": "/npm-install-this/package/dist/ScrollTrigger.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/SplitText.js": {
+	"/npm-install-this/package/dist/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/SplitText-min.js",
+		"oAP": "/npm-install-this/package/dist/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/SplitText.min.js": {
+	"/npm-install-this/package/dist/SplitText.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/SplitText.min-min.js",
+		"oAP": "/npm-install-this/package/dist/SplitText.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/SplitText.min.js.map": {
+	"/npm-install-this/package/dist/SplitText.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/SplitText.min.js.map",
+		"oAP": "/npm-install-this/package/dist/SplitText.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin.js": {
+	"/npm-install-this/package/dist/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin-min.js",
+		"oAP": "/npm-install-this/package/dist/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin.min.js": {
+	"/npm-install-this/package/dist/TextPlugin.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin.min-min.js",
+		"oAP": "/npm-install-this/package/dist/TextPlugin.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin.min.js.map": {
+	"/npm-install-this/package/dist/TextPlugin.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/dist/TextPlugin.min.js.map",
+		"oAP": "/npm-install-this/package/dist/TextPlugin.min.js.map",
 		"oF": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/Draggable.js": {
+	"/npm-install-this/package/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/Draggable-min.js",
+		"oAP": "/npm-install-this/package/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/DrawSVGPlugin-min.js": {
+	"/npm-install-this/package/DrawSVGPlugin-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/DrawSVGPlugin-min-min.js",
+		"oAP": "/npm-install-this/package/DrawSVGPlugin-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/DrawSVGPlugin.js": {
+	"/npm-install-this/package/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/DrawSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/EaselPlugin.js": {
+	"/npm-install-this/package/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/EaselPlugin-min.js",
+		"oAP": "/npm-install-this/package/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/EasePack.js": {
+	"/npm-install-this/package/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/EasePack-min.js",
+		"oAP": "/npm-install-this/package/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/gsap-core.js": {
+	"/npm-install-this/package/gsap-core.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/gsap-core-min.js",
+		"oAP": "/npm-install-this/package/gsap-core-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/GSDevTools.js": {
+	"/npm-install-this/package/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/GSDevTools-min.js",
+		"oAP": "/npm-install-this/package/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/index.js": {
+	"/npm-install-this/package/index.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/index-min.js",
+		"oAP": "/npm-install-this/package/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/InertiaPlugin.js": {
+	"/npm-install-this/package/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/InertiaPlugin-min.js",
+		"oAP": "/npm-install-this/package/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/MorphSVGPlugin.js": {
+	"/npm-install-this/package/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/MorphSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/MotionPathHelper.js": {
+	"/npm-install-this/package/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/MotionPathHelper-min.js",
+		"oAP": "/npm-install-this/package/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/MotionPathPlugin.js": {
+	"/npm-install-this/package/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/MotionPathPlugin-min.js",
+		"oAP": "/npm-install-this/package/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/package.json": {
+	"/npm-install-this/package/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/package-min.json",
+		"oAP": "/npm-install-this/package/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"/gsap-shockingly-green/npm-install-this/package/Physics2DPlugin.js": {
+	"/npm-install-this/package/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/Physics2DPlugin-min.js",
+		"oAP": "/npm-install-this/package/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/PhysicsPropsPlugin.js": {
+	"/npm-install-this/package/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/PhysicsPropsPlugin-min.js",
+		"oAP": "/npm-install-this/package/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/PixiPlugin.js": {
+	"/npm-install-this/package/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/PixiPlugin-min.js",
+		"oAP": "/npm-install-this/package/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/README.md": {
+	"/npm-install-this/package/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1953,7 +1690,7 @@
 		"ft": 4096,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/README.html",
+		"oAP": "/npm-install-this/package/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1962,392 +1699,392 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/ScrambleTextPlugin.js": {
+	"/npm-install-this/package/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/ScrambleTextPlugin-min.js",
+		"oAP": "/npm-install-this/package/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/ScrollToPlugin.js": {
+	"/npm-install-this/package/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/ScrollToPlugin-min.js",
+		"oAP": "/npm-install-this/package/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/ScrollTrigger.js": {
+	"/npm-install-this/package/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/ScrollTrigger-min.js",
+		"oAP": "/npm-install-this/package/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/SplitText.js": {
+	"/npm-install-this/package/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/SplitText-min.js",
+		"oAP": "/npm-install-this/package/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/all.js": {
+	"/npm-install-this/package/src/all.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/all-min.js",
+		"oAP": "/npm-install-this/package/src/all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/CSSPlugin.js": {
+	"/npm-install-this/package/src/CSSPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/CSSPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/CSSPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/CSSRulePlugin.js": {
+	"/npm-install-this/package/src/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/CSSRulePlugin-min.js",
+		"oAP": "/npm-install-this/package/src/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/CustomBounce.js": {
+	"/npm-install-this/package/src/CustomBounce.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/CustomBounce-min.js",
+		"oAP": "/npm-install-this/package/src/CustomBounce-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/CustomEase.js": {
+	"/npm-install-this/package/src/CustomEase.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/CustomEase-min.js",
+		"oAP": "/npm-install-this/package/src/CustomEase-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/CustomWiggle.js": {
+	"/npm-install-this/package/src/CustomWiggle.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/CustomWiggle-min.js",
+		"oAP": "/npm-install-this/package/src/CustomWiggle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/Draggable.js": {
+	"/npm-install-this/package/src/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/Draggable-min.js",
+		"oAP": "/npm-install-this/package/src/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/DrawSVGPlugin.js": {
+	"/npm-install-this/package/src/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/DrawSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/EaselPlugin.js": {
+	"/npm-install-this/package/src/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/EaselPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/EasePack.js": {
+	"/npm-install-this/package/src/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/EasePack-min.js",
+		"oAP": "/npm-install-this/package/src/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/gsap-core.js": {
+	"/npm-install-this/package/src/gsap-core.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/gsap-core-min.js",
+		"oAP": "/npm-install-this/package/src/gsap-core-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/GSDevTools.js": {
+	"/npm-install-this/package/src/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/GSDevTools-min.js",
+		"oAP": "/npm-install-this/package/src/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/index.js": {
+	"/npm-install-this/package/src/index.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/index-min.js",
+		"oAP": "/npm-install-this/package/src/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/InertiaPlugin.js": {
+	"/npm-install-this/package/src/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/InertiaPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/MorphSVGPlugin.js": {
+	"/npm-install-this/package/src/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/MorphSVGPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/MotionPathHelper.js": {
+	"/npm-install-this/package/src/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/MotionPathHelper-min.js",
+		"oAP": "/npm-install-this/package/src/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/MotionPathPlugin.js": {
+	"/npm-install-this/package/src/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/MotionPathPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/Physics2DPlugin.js": {
+	"/npm-install-this/package/src/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/Physics2DPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/PhysicsPropsPlugin.js": {
+	"/npm-install-this/package/src/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/PhysicsPropsPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/PixiPlugin.js": {
+	"/npm-install-this/package/src/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/PixiPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/ScrambleTextPlugin.js": {
+	"/npm-install-this/package/src/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/ScrambleTextPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/ScrollToPlugin.js": {
+	"/npm-install-this/package/src/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/ScrollToPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/ScrollTrigger.js": {
+	"/npm-install-this/package/src/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/ScrollTrigger-min.js",
+		"oAP": "/npm-install-this/package/src/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/SplitText.js": {
+	"/npm-install-this/package/src/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/SplitText-min.js",
+		"oAP": "/npm-install-this/package/src/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/TextPlugin.js": {
+	"/npm-install-this/package/src/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/TextPlugin-min.js",
+		"oAP": "/npm-install-this/package/src/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/utils/matrix.js": {
+	"/npm-install-this/package/src/utils/matrix.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/utils/matrix-min.js",
+		"oAP": "/npm-install-this/package/src/utils/matrix-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/utils/PathEditor.js": {
+	"/npm-install-this/package/src/utils/PathEditor.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/utils/PathEditor-min.js",
+		"oAP": "/npm-install-this/package/src/utils/PathEditor-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/utils/paths.js": {
+	"/npm-install-this/package/src/utils/paths.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/utils/paths-min.js",
+		"oAP": "/npm-install-this/package/src/utils/paths-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/utils/strings.js": {
+	"/npm-install-this/package/src/utils/strings.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/utils/strings-min.js",
+		"oAP": "/npm-install-this/package/src/utils/strings-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/src/utils/VelocityTracker.js": {
+	"/npm-install-this/package/src/utils/VelocityTracker.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/src/utils/VelocityTracker-min.js",
+		"oAP": "/npm-install-this/package/src/utils/VelocityTracker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/TextPlugin.js": {
+	"/npm-install-this/package/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/TextPlugin-min.js",
+		"oAP": "/npm-install-this/package/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/animation.d.ts": {
+	"/npm-install-this/package/types/animation.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2356,12 +2093,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/animation.d.js",
+		"oAP": "/npm-install-this/package/types/animation.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/css-plugin.d.ts": {
+	"/npm-install-this/package/types/css-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2370,12 +2107,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/css-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/css-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/css-rule-plugin.d.ts": {
+	"/npm-install-this/package/types/css-rule-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2384,12 +2121,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/css-rule-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/css-rule-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/custom-bounce.d.ts": {
+	"/npm-install-this/package/types/custom-bounce.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2398,12 +2135,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/custom-bounce.d.js",
+		"oAP": "/npm-install-this/package/types/custom-bounce.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/custom-ease.d.ts": {
+	"/npm-install-this/package/types/custom-ease.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2412,12 +2149,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/custom-ease.d.js",
+		"oAP": "/npm-install-this/package/types/custom-ease.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/custom-wiggle.d.ts": {
+	"/npm-install-this/package/types/custom-wiggle.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2426,12 +2163,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/custom-wiggle.d.js",
+		"oAP": "/npm-install-this/package/types/custom-wiggle.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/draggable.d.ts": {
+	"/npm-install-this/package/types/draggable.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2440,12 +2177,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/draggable.d.js",
+		"oAP": "/npm-install-this/package/types/draggable.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/draw-svg-plugin.d.ts": {
+	"/npm-install-this/package/types/draw-svg-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2454,12 +2191,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/draw-svg-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/draw-svg-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/ease.d.ts": {
+	"/npm-install-this/package/types/ease.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2468,12 +2205,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/ease.d.js",
+		"oAP": "/npm-install-this/package/types/ease.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/easel-plugin.d.ts": {
+	"/npm-install-this/package/types/easel-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2482,12 +2219,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/easel-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/easel-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/gs-dev-tools.d.ts": {
+	"/npm-install-this/package/types/gs-dev-tools.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2496,12 +2233,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/gs-dev-tools.d.js",
+		"oAP": "/npm-install-this/package/types/gs-dev-tools.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/gsap-core.d.ts": {
+	"/npm-install-this/package/types/gsap-core.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2510,12 +2247,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/gsap-core.d.js",
+		"oAP": "/npm-install-this/package/types/gsap-core.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/gsap-plugins.d.ts": {
+	"/npm-install-this/package/types/gsap-plugins.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2524,12 +2261,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/gsap-plugins.d.js",
+		"oAP": "/npm-install-this/package/types/gsap-plugins.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/gsap-utils.d.ts": {
+	"/npm-install-this/package/types/gsap-utils.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2538,12 +2275,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/gsap-utils.d.js",
+		"oAP": "/npm-install-this/package/types/gsap-utils.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/index.d.ts": {
+	"/npm-install-this/package/types/index.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2552,12 +2289,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/index.d.js",
+		"oAP": "/npm-install-this/package/types/index.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/inertia-plugin.d.ts": {
+	"/npm-install-this/package/types/inertia-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2566,12 +2303,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/inertia-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/inertia-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/morph-svg-plugin.d.ts": {
+	"/npm-install-this/package/types/morph-svg-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2580,12 +2317,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/morph-svg-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/morph-svg-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/motion-path-helper.d.ts": {
+	"/npm-install-this/package/types/motion-path-helper.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2594,12 +2331,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/motion-path-helper.d.js",
+		"oAP": "/npm-install-this/package/types/motion-path-helper.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/motion-path-plugin.d.ts": {
+	"/npm-install-this/package/types/motion-path-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2608,12 +2345,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/motion-path-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/motion-path-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/physics-2d-plugin.d.ts": {
+	"/npm-install-this/package/types/physics-2d-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2622,12 +2359,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/physics-2d-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/physics-2d-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/physics-props-plugin.d.ts": {
+	"/npm-install-this/package/types/physics-props-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2636,12 +2373,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/physics-props-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/physics-props-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/pixi-plugin.d.ts": {
+	"/npm-install-this/package/types/pixi-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2650,12 +2387,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/pixi-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/pixi-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/scramble-text-plugin.d.ts": {
+	"/npm-install-this/package/types/scramble-text-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2664,12 +2401,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/scramble-text-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/scramble-text-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/scroll-to-plugin.d.ts": {
+	"/npm-install-this/package/types/scroll-to-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2678,12 +2415,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/scroll-to-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/scroll-to-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/scroll-trigger.d.ts": {
+	"/npm-install-this/package/types/scroll-trigger.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2692,12 +2429,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/scroll-trigger.d.js",
+		"oAP": "/npm-install-this/package/types/scroll-trigger.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/split-text.d.ts": {
+	"/npm-install-this/package/types/split-text.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2706,12 +2443,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/split-text.d.js",
+		"oAP": "/npm-install-this/package/types/split-text.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/text-plugin.d.ts": {
+	"/npm-install-this/package/types/text-plugin.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2720,12 +2457,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/text-plugin.d.js",
+		"oAP": "/npm-install-this/package/types/text-plugin.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/timeline.d.ts": {
+	"/npm-install-this/package/types/timeline.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2734,12 +2471,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/timeline.d.js",
+		"oAP": "/npm-install-this/package/types/timeline.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/tween.d.ts": {
+	"/npm-install-this/package/types/tween.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2748,12 +2485,12 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/tween.d.js",
+		"oAP": "/npm-install-this/package/types/tween.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/types/utils/velocity-tracker.d.ts": {
+	"/npm-install-this/package/types/utils/velocity-tracker.d.ts": {
 		"cDF": 0,
 		"ft": 128,
 		"jxM": 0,
@@ -2762,692 +2499,637 @@
 		"moR": 0,
 		"moT": 2,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/types/utils/velocity-tracker.d.js",
+		"oAP": "/npm-install-this/package/types/utils/velocity-tracker.d.js",
 		"oF": 0,
 		"rC": 0,
 		"tEC": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/utils/matrix.js": {
+	"/npm-install-this/package/utils/matrix.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/utils/matrix-min.js",
+		"oAP": "/npm-install-this/package/utils/matrix-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/utils/PathEditor.js": {
+	"/npm-install-this/package/utils/PathEditor.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/utils/PathEditor-min.js",
+		"oAP": "/npm-install-this/package/utils/PathEditor-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/utils/paths.js": {
+	"/npm-install-this/package/utils/paths.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/utils/paths-min.js",
+		"oAP": "/npm-install-this/package/utils/paths-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/utils/strings.js": {
+	"/npm-install-this/package/utils/strings.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/utils/strings-min.js",
+		"oAP": "/npm-install-this/package/utils/strings-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/npm-install-this/package/utils/VelocityTracker.js": {
+	"/npm-install-this/package/utils/VelocityTracker.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/npm-install-this/package/utils/VelocityTracker-min.js",
+		"oAP": "/npm-install-this/package/utils/VelocityTracker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/all.js": {
+	"/src/all.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/all-min.js",
+		"oAP": "/src/all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/CSSPlugin.js": {
+	"/src/CSSPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/CSSPlugin-min.js",
+		"oAP": "/src/CSSPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/CSSRulePlugin.js": {
+	"/src/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/CSSRulePlugin-min.js",
+		"oAP": "/src/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/CustomBounce.js": {
+	"/src/CustomBounce.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/CustomBounce-min.js",
+		"oAP": "/src/CustomBounce-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/CustomEase.js": {
+	"/src/CustomEase.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/CustomEase-min.js",
+		"oAP": "/src/CustomEase-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/CustomWiggle.js": {
+	"/src/CustomWiggle.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/CustomWiggle-min.js",
+		"oAP": "/src/CustomWiggle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/Draggable.js": {
+	"/src/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/Draggable-min.js",
+		"oAP": "/src/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/DrawSVGPlugin.js": {
+	"/src/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/DrawSVGPlugin-min.js",
+		"oAP": "/src/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/EaselPlugin.js": {
+	"/src/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/EaselPlugin-min.js",
+		"oAP": "/src/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/EasePack.js": {
+	"/src/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/EasePack-min.js",
+		"oAP": "/src/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/gsap-core.js": {
+	"/src/gsap-core.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/gsap-core-min.js",
+		"oAP": "/src/gsap-core-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/GSDevTools.js": {
+	"/src/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/GSDevTools-min.js",
+		"oAP": "/src/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/index.js": {
+	"/src/index.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/index-min.js",
+		"oAP": "/src/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/InertiaPlugin.js": {
+	"/src/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/InertiaPlugin-min.js",
+		"oAP": "/src/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/MorphSVGPlugin.js": {
+	"/src/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/MorphSVGPlugin-min.js",
+		"oAP": "/src/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/MotionPathHelper.js": {
+	"/src/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/MotionPathHelper-min.js",
+		"oAP": "/src/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/MotionPathPlugin.js": {
+	"/src/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/MotionPathPlugin-min.js",
+		"oAP": "/src/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/Physics2DPlugin.js": {
+	"/src/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/Physics2DPlugin-min.js",
+		"oAP": "/src/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/PhysicsPropsPlugin.js": {
+	"/src/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/PhysicsPropsPlugin-min.js",
+		"oAP": "/src/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/PixiPlugin.js": {
+	"/src/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/PixiPlugin-min.js",
+		"oAP": "/src/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/ScrambleTextPlugin.js": {
+	"/src/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/ScrambleTextPlugin-min.js",
+		"oAP": "/src/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/ScrollToPlugin.js": {
+	"/src/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/ScrollToPlugin-min.js",
+		"oAP": "/src/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/ScrollTrigger.js": {
+	"/src/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/ScrollTrigger-min.js",
+		"oAP": "/src/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/SplitText.js": {
+	"/src/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/SplitText-min.js",
+		"oAP": "/src/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/TextPlugin.js": {
+	"/src/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/src/TextPlugin-min.js",
+		"oAP": "/src/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/utils/matrix.js": {
+	"/src/utils/matrix.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/utils/matrix-min.js",
+		"oAP": "/src/utils/matrix-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/utils/PathEditor.js": {
+	"/src/utils/PathEditor.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/utils/PathEditor-min.js",
+		"oAP": "/src/utils/PathEditor-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/utils/paths.js": {
+	"/src/utils/paths.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/utils/paths-min.js",
+		"oAP": "/src/utils/paths-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/utils/strings.js": {
+	"/src/utils/strings.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/utils/strings-min.js",
+		"oAP": "/src/utils/strings-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/src/utils/VelocityTracker.js": {
+	"/src/utils/VelocityTracker.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/gsap-shockingly-green/src/utils/VelocityTracker-min.js",
+		"oAP": "/src/utils/VelocityTracker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/CSSRulePlugin.js": {
+	"/umd/CSSRulePlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/CSSRulePlugin-min.js",
+		"oAP": "/umd/CSSRulePlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/CustomBounce.js": {
+	"/umd/CustomBounce.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/CustomBounce-min.js",
+		"oAP": "/umd/CustomBounce-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/CustomEase.js": {
+	"/umd/CustomEase.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/CustomEase-min.js",
+		"oAP": "/umd/CustomEase-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/CustomWiggle.js": {
+	"/umd/CustomWiggle.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/CustomWiggle-min.js",
+		"oAP": "/umd/CustomWiggle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/Draggable.js": {
+	"/umd/Draggable.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/Draggable-min.js",
+		"oAP": "/umd/Draggable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/DrawSVGPlugin.js": {
+	"/umd/DrawSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/DrawSVGPlugin-min.js",
+		"oAP": "/umd/DrawSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/EaselPlugin.js": {
+	"/umd/EaselPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/EaselPlugin-min.js",
+		"oAP": "/umd/EaselPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/EasePack.js": {
+	"/umd/EasePack.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/EasePack-min.js",
+		"oAP": "/umd/EasePack-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/gsap.js": {
+	"/umd/gsap.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/gsap-min.js",
+		"oAP": "/umd/gsap-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/GSDevTools.js": {
+	"/umd/GSDevTools.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/GSDevTools-min.js",
+		"oAP": "/umd/GSDevTools-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/InertiaPlugin.js": {
+	"/umd/InertiaPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/InertiaPlugin-min.js",
+		"oAP": "/umd/InertiaPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/MorphSVGPlugin.js": {
+	"/umd/MorphSVGPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/MorphSVGPlugin-min.js",
+		"oAP": "/umd/MorphSVGPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/MotionPathHelper.js": {
+	"/umd/MotionPathHelper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/MotionPathHelper-min.js",
+		"oAP": "/umd/MotionPathHelper-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/MotionPathPlugin.js": {
+	"/umd/MotionPathPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/MotionPathPlugin-min.js",
+		"oAP": "/umd/MotionPathPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/Physics2DPlugin.js": {
+	"/umd/Physics2DPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/Physics2DPlugin-min.js",
+		"oAP": "/umd/Physics2DPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/PhysicsPropsPlugin.js": {
+	"/umd/PhysicsPropsPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/PhysicsPropsPlugin-min.js",
+		"oAP": "/umd/PhysicsPropsPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/PixiPlugin.js": {
+	"/umd/PixiPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/PixiPlugin-min.js",
+		"oAP": "/umd/PixiPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/ScrambleTextPlugin.js": {
+	"/umd/ScrambleTextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/ScrambleTextPlugin-min.js",
+		"oAP": "/umd/ScrambleTextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/ScrollToPlugin.js": {
+	"/umd/ScrollToPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/ScrollToPlugin-min.js",
+		"oAP": "/umd/ScrollToPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/ScrollTrigger.js": {
+	"/umd/ScrollTrigger.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/ScrollTrigger-min.js",
+		"oAP": "/umd/ScrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/SplitText.js": {
+	"/umd/SplitText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/SplitText-min.js",
+		"oAP": "/umd/SplitText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/gsap-shockingly-green/umd/TextPlugin.js": {
+	"/umd/TextPlugin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/gsap-shockingly-green/umd/TextPlugin-min.js",
+		"oAP": "/umd/TextPlugin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/node_modules/gsap/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		}
 	},
 "hooks": [
@@ -3455,10 +3137,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 622561353.46572006,
-	"displayValue": "Teryn-Motion-Demo",
+	"creationDate": 627775993.01171398,
+	"displayValue": "gsap-shockingly-green",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-verd",
+	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -3901,7 +3583,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -3977,7 +3659,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never', {'enforceForClassMembers': true}"
+			"optionString": "'never'"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -4224,7 +3906,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -4925,7 +4607,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
