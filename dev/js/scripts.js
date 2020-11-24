@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
-// import { GSDevTools } from "gsap/GSDevTools";
+import { GSDevTools } from "gsap/GSDevTools";
 
-// gsap.registerPlugin(GSDevTools);
+gsap.registerPlugin(GSDevTools);
 
 import {logoAnimation} from "./logo.js"
 import {revealAnimation} from "./dash.js"
@@ -13,4 +13,4 @@ mainTL.add(logoAnimation());
 mainTL.add(revealAnimation()); 
 
 
-// GSDevTools.create();
+GSDevTools.create();
