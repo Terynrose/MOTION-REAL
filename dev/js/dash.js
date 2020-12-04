@@ -80,26 +80,47 @@ revealTL.from("#road", {duration: 1.5, drawSVG: "0%", ease: "none"})
         .from("#weather-container", {duration: 1, y: -200}, "weather")
 
         .from("#temp", {duration: .5, alpha: 0})
-        .from("#p-partly", {duration: .1, alpha: 0}, "cloud2")
-        .from("#a-partly", {duration: .1, alpha: 0})
-        .from("#r-partly", {duration: .1, alpha: 0})
-        .from("#t-partly", {duration: .1, alpha: 0})
-        .from("#l-partly", {duration: .1, alpha: 0})
-        .from("#y-partly", {duration: .1, alpha: 0})
-        .from("#s-sunny", {duration: .1, alpha: 0})
-        .from("#u-sunny", {duration: .1, alpha: 0})
-        .from("#n-sunny", {duration: .1, alpha: 0})
-        .from("#n2-sunny", {duration: .1, alpha: 0})
-        .from("#y-sunny", {duration: .1, alpha: 0})
-        .from("#cloud-weather", {duration: 1, drawSVG: "0%", ease: "none"}, "cloud2")
-
+        .from("#p-partly", {duration: .08, alpha: 0}, "cloud2")
+        .from("#a-partly", {duration: .08, alpha: 0})
+        .from("#r-partly", {duration: .08, alpha: 0})
+        .from("#t-partly", {duration: .08, alpha: 0})
+        .from("#l-partly", {duration: .08, alpha: 0})
+        .from("#y-partly", {duration: .08, alpha: 0})
+        .from("#s-sunny", {duration: .08, alpha: 0})
+        .from("#u-sunny", {duration: .08, alpha: 0})
+        .from("#n-sunny", {duration: .08, alpha: 0})
+        .from("#n2-sunny", {duration: .08, alpha: 0})
+        .from("#y-sunny", {duration: .08, alpha: 0})
+        .from("#cloud-weather", {duration: .75, drawSVG: "0%", ease: "none"}, "cloud2")
 
 
         // Music
+        .to("#music", {delay: .5, duration: .25, alpha: .25}, "idk")
+        .to("#cloud", {duration: .25, alpha: 0, x: -150, y: 0}, "idk")
+        .to("#music", {duration: .25, alpha: 1})
+        .to("#music", {delay: .25, duration: .25, y: -50}, "music")
         .from("#stereo-container", {duration: 1, y: -200}, "music")
+        .to("#cloud", {delay: .25, duration: 1, alpha: 1, x: 0, y: 0}, "music")
+        .to("#weather-container", {delay: .25, duration: 1, y: -200}, "music")
+        .to("#cloud-weather", {delay: .25, duration: 1, y: -50}, "music")
+        .from("#song", {duration: .5, x:55, scaleX: .5, transformOrigin: "left"})
 
+        // Radio Blasting
+        .from("#l9", {duration: .1, alpha: 0}, "volume")
+        .from("#l8", {duration: .1, alpha: 0})
+        .from("#l7", {duration: .1, alpha: 0})
+        .from("#l6", {duration: .1, alpha: 0})
+        .from("#l5", {duration: .1, alpha: 0})
+        .from("#l4", {duration: .1, alpha: 0})
+        .from("#l3", {duration: .1, alpha: 0})
+        .from("#l2", {duration: .1, alpha: 0})
+        .from("#l1", {duration: .1, alpha: 0})
+        .to("#volume-ticks", {duration: 2, rotation: 360, transformOrigin: "center"}, "volume")
 
-
+        // Cruising Fast
+        .to("#sped-arrow", {delay: .25, duration: 1.75, rotation: 120, transformOrigin: "30 47"}, "volume")
+        .to("#sped-arrow", {duration: .75, rotation: 100, transformOrigin: "30 47"})
+        .to("#sped-arrow", {duration: .75, rotation: 110, transformOrigin: "30 47"})
 
 
 
