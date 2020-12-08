@@ -13,5 +13,15 @@ mainTL.add(logoAnimation());
 // mainTL.add(driveAnimation()); 
 mainTL.add(revealAnimation()); 
 
+//audio
+
+var audio = document.getElementById("audio");
+
+playMusic();
+
+function playMusic(){
+    audio.play();
+}
+
 
 GSDevTools.create();

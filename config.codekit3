@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/music/fff-cut.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/music/fff-cut.mp3",
+		"oF": 0
+		},
 	"/dev/content/dash.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -271,22 +279,6 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
-		},
-	"/fff-cut.m4a": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fff-cut.m4a",
-		"oF": 0
-		},
-	"/fff-full.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fff-full.mp3",
-		"oF": 0
 		},
 	"/gsap-bonus.tgz": {
 		"cB": 0,

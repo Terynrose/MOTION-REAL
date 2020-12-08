@@ -1,16 +1,6 @@
 import {gsap} from "gsap";
 
-// import{DrawSVGPlugin} from "gsap/DrawSVGPlugin";
 
-// gsap.registerPlugin(DrawSVGPlugin);
-
-// import $ from "jquery"
-
-// const svgHeight = $("#svg-design").height();
-// console.log(svgHeight + "267px");
-
-// const logoHeight = $("#logo").height();
-// console.log(logoHeight + "267px");
 
 const logoTL = gsap.timeline();
 logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
