@@ -1,13 +1,16 @@
 import {gsap} from "gsap";
 
-//import $ from "jquery"
 // import{DrawSVGPlugin} from "gsap/DrawSVGPlugin";
 
 // gsap.registerPlugin(DrawSVGPlugin);
-//var logoHeight = $("#logo").height();
 
-//console.log(logoHeight  + ' is the logo height');
+// import $ from "jquery"
 
+// const svgHeight = $("#svg-design").height();
+// console.log(svgHeight + "267px");
+
+// const logoHeight = $("#logo").height();
+// console.log(logoHeight + "267px");
 
 const logoTL = gsap.timeline();
 logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
@@ -16,7 +19,7 @@ logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
         .from("#Beak", {duration: 1, alpha: 0}, "after-third")
         .from("#Shadows", {duration: 1, alpha: 0}, "after-third")
         .from("#Feathers", {delay: 1.5, duration: 1, alpha: 0}, "third")
-        .to("#logo", {duration: 1, y: 340, scale: 1.25}, "fourth")
+        .to("#logo1", {duration: 1, y: 217}, "fourth")
         .to("#LW", {duration: 1, alpha: 0}, "fourth")
         .to("#RW", {duration: 1, alpha: 0}, "fourth")
         .to("#Beak", {duration: 1, alpha: 0}, "fourth")
