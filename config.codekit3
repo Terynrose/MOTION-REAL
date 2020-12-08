@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/music/fff-cut.m4a": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/music/fff-cut.m4a",
+		"oF": 0
+		},
 	"/deploy/music/fff-cut.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -286,6 +294,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
+		},
+	"/Life-On-Mars.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Life-On-Mars.mp3",
 		"oF": 0
 		},
 	"/node_modules": {
