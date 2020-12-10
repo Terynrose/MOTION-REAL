@@ -3,7 +3,7 @@ import {gsap} from "gsap";
 
 
 const logoTL = gsap.timeline();
-logoTL.from("#Body", {duration: 1, alpha: 0}, "second")
+logoTL.from("#Body", {delay: 1, duration: 1, alpha: 0}, "second")
         .from("#LW", {duration: 1, alpha: 0, rotation: 83, transformOrigin: "right"}, "third")
         .from("#RW", {duration: 1, alpha: 0, rotation: -83, transformOrigin: "left"}, "third")
         .from("#Beak", {duration: 1, alpha: 0}, "after-third")
